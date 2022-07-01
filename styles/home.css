@@ -1,0 +1,179 @@
+
+body{                                 
+    font-family: 'Ubuntu', sans-serif;                                                                                 
+    margin: 0px;                                                                                   
+}
+/* nav section begins */                                                                              
+.nav{
+    display: flex;
+    justify-content: center;                                  
+    background-color: black;          
+    color: white;                     
+    padding: 10px 0px;                 
+    border-bottom: -10px solid black; 
+                                    
+}                                      
+              
+/* links*/                                                                                                              
+.nav > .left-side > .links > .link{    
+    display: flex;                     
+    align-items: center;               
+    margin-left: 15px;                 
+}         
+.links{                   
+    display: flex;        
+    align-items: center;  
+    margin-top: 25px;     
+}            
+.link a{
+    font-weight: 900;     
+    color: white;        
+    text-decoration: none;
+    font-size: 1.25rem;   
+    transition: 0.5s;     
+    margin-left: 9px;
+    font-size: 1.2em;
+}
+.left-links{                        
+    display: flex;                  
+    justify-content: left;               
+}                       
+.link a:hover{          
+    letter-spacing: 2px;
+}
+/* logo */                                                                              
+
+.logo img{              
+    height: 35px;       
+    margin-top: 19px;   
+}
+/* explore */                                                                              
+
+.explore{               
+    margin-left: 30px;  
+    color: #f4e180;      
+}
+/*left side wrapper*/                                      
+.nav > .left-side{                  
+    display: grid;                  
+    grid-template-columns: 1fr 10fr;
+                                    
+}       
+/* spark */                                                                              
+
+.spark{
+    display: flex;
+    align-items: center;
+
+     margin-left: 30px;
+     color: #acaca2;
+}
+.spark i{
+    color: aliceblue;
+    margin-left: 12px;
+}
+/* nav section ends */                                                                              
+
+/*main content*/   
+.content{
+    display: grid;
+    background-color: #4c4f57;
+    font-size: 2.5rem;
+    border-top: 60px solid #4c4f57;
+    box-shadow: inset 0px -200px 300px -160px rgba(0,0,0,1);
+    grid-template-columns: 1fr 1fr;
+
+}
+/*every side of main content*/   
+.left-side{
+    margin-left: 40px;
+}
+.upper-side p{
+    margin-top: 0px;
+    color: aliceblue;
+}
+.lower-side p{
+    color: #b3af97;
+    font-size: 2rem;
+}
+.content > .right-side img{
+    margin-bottom: 50px;
+}
+.content > .right-side {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.buttons{
+    margin-top: 50px;
+}
+/* footer*/                       
+.footer{
+    background-color: #36383f;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer > .footer-section{
+    display: flex;
+    border: 1px solid #676767;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.footer > .footer-section > .highlight{
+    font-weight: 900;
+    padding-left: 7px;
+    font-size: 2rem;
+}
+.right-side > #create > .create-content{
+    display: flex;
+    margin-top: 10px;
+}
+#create{
+    display: flex;
+    justify-content: space-evenly;
+}
+#create i{
+    font-size: 1.5rem;
+    color: greenyellow;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+}
+.right-side i{
+    font-size: 3rem;
+    padding-left: 20px;
+    color: #676767;
+}
+.right-btn{
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #36383f;
+    font-size: 1.25em;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 20px;
+
+}
+.filler{
+    height: 75px;
+    background-color: #191a1d;
+}
+#blue{
+    color: #78d4dc;
+}   
+.bold{
+    font-weight: 900;
+    color: white;
+    font-size: 1.1em;
+}
+
